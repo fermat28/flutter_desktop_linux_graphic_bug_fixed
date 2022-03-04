@@ -7,12 +7,15 @@ on "[FATAL:flutter/shell/gpu/gpu_surface_gl_delegate.cc(53)] Check failed: gl_ve
 ## Step to reproduce
 - Go on Driver setting by searching in the search bar
 ![Example screenshot](./1fix.png)
+
 - Open Application and select the driver version which is open source then click on apply changes
 ![Example screenshot](./2fix.png)
+
+
 - Go in your fluuter project and open it in your editor
-- run flutter clean
-- run flutter create --platforms=linux .
-- run flutter run -d linux your app is working now
+- run "flutter clean" command
+- run "flutter create --platforms=linux ." command
+- run "flutter run -d linux" command your app is working now
 
 
 # Thanks
