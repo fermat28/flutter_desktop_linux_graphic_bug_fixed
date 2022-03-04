@@ -30,7 +30,7 @@ Open your terminal (Ctrl+Alt+T), and run the following command to get informatio
 
 
 Then from the results installs the driver with the "distro free builtin" Tag wth command :
-# "sudo apt-install [driver-name]"
+# "sudo apt install xserver-xorg-video-nouveau"
 
 ![Example screenshot](./4fix.png)
 
