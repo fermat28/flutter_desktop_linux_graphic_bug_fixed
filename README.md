@@ -5,6 +5,8 @@ We will Talk About bug fixing
 on "[FATAL:flutter/shell/gpu/gpu_surface_gl_delegate.cc(53)] Check failed: gl_version_string. The GL proc resolver's glGetString(GL_VERSION) failed Error waiting for a debug connection: The log reader stopped unexpectedly, or never started. Error launching application on Linux." error
 
 ## Step to reproduce
+
+# From The Gui
 - Go on Driver setting by searching in the search bar
 ![Example screenshot](./1fix.png)
 
@@ -16,6 +18,22 @@ on "[FATAL:flutter/shell/gpu/gpu_surface_gl_delegate.cc(53)] Check failed: gl_ve
 - run "flutter clean" command
 - run "flutter create --platforms=linux ." command
 - run "flutter run -d linux" command your app is working now
+
+
+# Frome de Command-line interface 
+
+If you prefer the command-line interface, you can use the ubuntu-drivers tool.
+Open your terminal (Ctrl+Alt+T), and run the following command to get information about your graphic card and available drivers:
+# "ubuntu-drivers devices"
+
+![Example screenshot](./3fix.png)
+
+
+Then from the results installs the driver with the "distro free builtin" Tag wth command :
+# "sudo apt-install [driver-name]"
+
+![Example screenshot](./4fix.png)
+
 
 
 # Thanks
