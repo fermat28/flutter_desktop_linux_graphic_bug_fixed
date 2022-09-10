@@ -20,7 +20,7 @@ on "[FATAL:flutter/shell/gpu/gpu_surface_gl_delegate.cc(53)] Check failed: gl_ve
 - run "flutter run -d linux" command your app is working now
 
 
-# Frome de Command-line interface 
+# From the Command-line interface 
 
 If you prefer the command-line interface, you can use the ubuntu-drivers tool.
 Open your terminal (Ctrl+Alt+T), and run the following command to get information about your graphic card and available drivers:
